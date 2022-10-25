@@ -3,8 +3,22 @@ body{
     background-color: rgb(227, 184, 56);
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(227, 184, 56);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(173, 122, 41);
+    border-radius: 10px;
+}
+
 header{
     background-color: rgb(173, 122, 41);
+    border-radius: 20px;
 }
 
 header *{
