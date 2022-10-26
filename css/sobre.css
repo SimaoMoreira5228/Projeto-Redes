@@ -8,17 +8,16 @@ body{
 }
 
 ::-webkit-scrollbar-track{
-    background-color: rgb(101, 201, 44);
+    background-color: white;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: white;
+    background: rgb(116, 116, 116);
     border-radius: 10px;
 }
 
 header{
-    background-color: rgb(12, 141, 19);
-    border-radius: 20px;
+    background-color: white;
 }
 
 header *{
@@ -28,9 +27,19 @@ header *{
 
 header li{
     margin: 20px;
+    align-items: center;
 }
 
 header li a {
-    color: aliceblue;
+    color: black;
     text-decoration: none;
+}
+
+.logo{
+    background: left / cover url(../imgs/club-ciencia-viva.jpg);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
 }

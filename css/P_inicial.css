@@ -8,17 +8,16 @@ body{
 }
 
 ::-webkit-scrollbar-track{
-    background-color: rgb(101, 201, 44);
+    background-color: white;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: white;
+    background: rgb(116, 116, 116);
     border-radius: 10px;
 }
 
 header{
-    background-color: rgb(12, 141, 19);
-    border-radius: 20px;
+    background-color: white;
 }
 
 header *{
@@ -28,11 +27,29 @@ header *{
 
 header li{
     margin: 20px;
+    align-items: center;
 }
 
 header li a {
-    color: aliceblue;
+    color: black;
     text-decoration: none;
+}
+
+.logo{
+    background: left / cover url(../imgs/club-ciencia-viva.jpg);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.imagem-P-clube{
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 100%;
+    border-style: none;
 }
 
 /* https://imgs.search.brave.com/ce5IbbH-OtWCR61ubgqG3jRscQrO99XdB2drfyPLfk4/rs:fit:768:1024:1/g:ce/aHR0cHM6Ly9pbWd2/Mi0yLWYuc2NyaWJk/YXNzZXRzLmNvbS9p/bWcvZG9jdW1lbnQv/NzY1MTg0OTIvb3Jp/Z2luYWwvNDQxYTFm/OTM2Yi8xNTY3ODA2/MjE1P3Y9MQ */
