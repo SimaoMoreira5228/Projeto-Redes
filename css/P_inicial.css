@@ -1,6 +1,8 @@
 body{
     font-family: verdana;
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 ::-webkit-scrollbar{
@@ -21,18 +23,24 @@ header{
 }
 
 header *{
-    display: inline;
     display: flex;
 }
 
-header li{
-    margin: 20px;
+header nav{
+    margin: 10px;
     align-items: center;
 }
 
-header li a {
+header nav a {
     color: black;
     text-decoration: none;
+    
+}
+
+.botoes-head{
+    position: relative;
+    left: 25cm;
+    margin: 20px;
 }
 
 .logo{
@@ -45,11 +53,7 @@ header li a {
 }
 
 .imagem-P-clube{
-    margin: 0;
-    padding: 0;
     vertical-align: middle;
     width: 100%;
     border-style: none;
 }
-
-/* https://imgs.search.brave.com/ce5IbbH-OtWCR61ubgqG3jRscQrO99XdB2drfyPLfk4/rs:fit:768:1024:1/g:ce/aHR0cHM6Ly9pbWd2/Mi0yLWYuc2NyaWJk/YXNzZXRzLmNvbS9p/bWcvZG9jdW1lbnQv/NzY1MTg0OTIvb3Jp/Z2luYWwvNDQxYTFm/OTM2Yi8xNTY3ODA2/MjE1P3Y9MQ */
