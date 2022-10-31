@@ -1,60 +1,3 @@
-body{
-    font-family: verdana;
-    background-color: white;
-    margin: 0;
-    padding: 0;
-}
-
-::-webkit-scrollbar{
-    width: 10px;
-}
-
-::-webkit-scrollbar-track{
-    background-color: white;
-}
-
-::-webkit-scrollbar-thumb{
-    background: rgb(116, 116, 116);
-    border-radius: 10px;
-}
-
-header{
-    background-color: white;
-}
-
-header *{
-    display: flex;
-}
-
-header nav{
-    margin: 10px;
-}
-
-.botoes-head{
-    color: black;
-    text-decoration: none;
-    align-items: center;
-    margin: 10px;
-    padding: 10px 12px;
-    border-radius: 30px;
-    box-sizing: border-box;
-    font-weight: 300;
-    background-color:white;
-    transition: all 0.2s;
-}
-.botoes-head:hover{
-    background-color: rgb(189, 189, 189);
-}
-
-.logo{
-    background: left / cover url(../imgs/club-ciencia-viva.jpg);
-    display: flex;
-    height: 70px;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-}
-
 div ul{
     display: flex;
     justify-content: center;
@@ -98,4 +41,10 @@ div ul:hover li:nth-child(even){
     width: 70%;
     border-radius: 30px;
     box-shadow: 3px 7px 32px 4px rgba(0,0,0,0.75);
+}
+
+.resumoclube{
+    font-size: 20px;
+    margin: 70px;
+    text-align: center;
 }
