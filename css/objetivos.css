@@ -8,3 +8,8 @@
     margin-left: 200px;
     margin-right: 200px;
 }
+
+.objetivos{
+    display: flex;
+    justify-content: center;
+}

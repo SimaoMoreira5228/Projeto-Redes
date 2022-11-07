@@ -1,0 +1,10 @@
+#Titulos{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#textos{
+    display: flex;
+    justify-content: center;
+}
