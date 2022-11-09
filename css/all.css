@@ -15,6 +15,7 @@ body{
 
 ::-webkit-scrollbar-thumb{
     background: rgb(116, 116, 116);
+    border-radius: 10px;
 }
 
 header{
