@@ -7,4 +7,15 @@
 #textos{
     display: flex;
     justify-content: center;
+    margin-right: 15px;
+}
+
+.divtabela{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.tabela{
+    border-collapse: collapse;
 }
