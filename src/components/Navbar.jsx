@@ -9,7 +9,7 @@ function Navbar() {
   const [Active, setActive] = useState("");
   const [Toggle, setToggle] = useState(false);
   return (
-    <nav className="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-secondary shadow-xl">
+    <nav className="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-fourth shadow-xl">
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
@@ -26,8 +26,8 @@ function Navbar() {
             <li
               key={link.id}
               className={`${
-                Active === link.id ? "text-gray-400" : "text-white"
-              } hover:text-gray-200 text-[18px] font-medium cursor-pointer`}
+                Active === link.id ? "text-secondary" : "text-white"
+              } hover:text-secondary text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -44,20 +44,20 @@ function Navbar() {
           <div
             className={`${
               !Toggle ? "hidden" : "flex"
-            } p-6 bg-secondary absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-fourth absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           />
           <div
             className={`${
               !Toggle ? "hidden" : "flex"
-            } p-6 bg-secondary absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-fourth absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
                   className={`${
-                    Active === link.id ? "text-gray-400" : "text-white"
-                  } font-popins font-medium cursor-pointer text-[16px]`}
+                    Active === link.id ? "text-secondary" : "text-white"
+                  } hover:text-secondary font-popins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!Toggle);
                     setActive(link.title);
