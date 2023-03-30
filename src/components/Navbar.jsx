@@ -9,7 +9,7 @@ function Navbar() {
   const [Active, setActive] = useState("");
   const [Toggle, setToggle] = useState(false);
   return (
-    <nav className="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-fourth shadow-xl">
+    <nav className="sm:px-16 px-6 w-full flex items-center fixed py-5 top-0 z-20 bg-fourth shadow-xl">
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"

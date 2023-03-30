@@ -1,9 +1,10 @@
 import React from "react";
+import HeroImg from "../assets/clubes10.jpg";
 
 function Hero() {
   return (
     <div>
-      <p>o</p>
+      <img src={HeroImg} alt="Imagem" className="h-screen w-full" />
     </div>
   );
 }
