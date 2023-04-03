@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { navLinks } from "../constants/navLinks";
+import navLinks from "../constants/navLinks";
 import logo from "../assets/logo.png";
 import menu from "../assets/menu.svg";
 import close from "../assets/close.svg";
@@ -30,7 +30,7 @@ function Navbar() {
               } hover:text-secondary text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>

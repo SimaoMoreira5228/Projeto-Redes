@@ -1,16 +1,19 @@
-import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
+import Home from "./pages/Home";
+import Galeria from "./pages/Galeria";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <Navbar />
-        <Hero />
-      </div>
-    </BrowserRouter>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/galeria" element={<Galeria />} />
+      </Routes>
+    </Router>
   );
 }
 

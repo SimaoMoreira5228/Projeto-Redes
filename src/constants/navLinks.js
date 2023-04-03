@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
   {
     id: "sobre",
     title: "Sobre",
@@ -28,3 +28,5 @@ export const navLinks = [
     title: "Inscrição",
   },
 ];
+
+export default navLinks;
