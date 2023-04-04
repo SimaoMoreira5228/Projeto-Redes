@@ -20,7 +20,7 @@ function ImageSlider() {
           key={index}
           className={`${
             index === current ? "block" : "hidden"
-          } w-full h-full object-cover`}
+          } w-full h-full object-cover shadow-2xl`}
           src={image.url}
           alt=""
           loading="lazy"

@@ -4,7 +4,11 @@ import HeroImg from "../assets/clubes10.jpg";
 function Hero() {
   return (
     <div>
-      <img src={HeroImg} alt="Imagem" className="h-screen w-full" />
+      <img
+        src={HeroImg}
+        alt="Imagem"
+        className="h-screen w-full object-cover"
+      />
     </div>
   );
 }

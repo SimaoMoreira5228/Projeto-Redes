@@ -12,11 +12,23 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+
+      animation: {
+        shake: "shake 0.5s",
+      },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
       screens: {
         xs: "450px",
+      },
+    },
+    keyframes: {
+      shake: {
+        "0%, 100%": { transform: "translateX(0)" },
+        "25%": { transform: "translateX(-10px) rotate(-5deg)" },
+        "50%": { transform: "translateX(10px) rotate(5deg)" },
+        "75%": { transform: "translateX(-10px) rotate(-5deg)" },
       },
     },
   },
