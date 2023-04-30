@@ -1,6 +1,7 @@
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function Galeria() {
   return (
@@ -11,6 +12,7 @@ function Galeria() {
           <ImageSlider />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
